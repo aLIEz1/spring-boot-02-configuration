@@ -1,0 +1,23 @@
+server:
+  port: 8082
+# port 8081 必须有空格
+# 用空格缩进来控制层级关系，只要是左对齐的一列数据，都是同一个层级
+# 属性和值大小写敏感
+# 字符串不用加引号 ""里面的字符串不会转义 ''里面的字符串会进行转义 比如会将\n理解为换行
+# 在下一行写对象的值和属性的关系要 注意缩进
+# 对象的行内写法为xxx:{key1: value,key2: value}
+# 数组用 - xxx \n - yyy \n -zzz 表示其中 \n 表示换行
+# 数组的行内写法为 xxx[a,b,c]
+#person:
+#  lastName: zhangsan
+#  age: 18
+#  boss: false
+#  birth: 2020/6/20
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#    - lisi
+#    - zhangsan
+#    - zhaoliu
+#  dog:
+#    name: xiaogou
+#    age: 2
